@@ -1,0 +1,13 @@
+1. Posledni shift nezahodil zadny argument, protoze argumentu bylo min (2) nez
+je operand shiftu (3). Podle manualu pak shift skonci s exit statusem 1.
+
+2. $# vypise pocet argumentu;
+   ${#premenna} vypise delku premenny
+   ${!premenna}  pozice promenne
+   ${premenna:-vyraz} pokud promenna je prazdna nebo null, setne na vyraz
+   ${premenna:cislo} nacte promennou od daneho znaku
+   ${premenna:cislo:cislo} nacte promennou od daneho znaku(cislo1) na dany pocet znaku (cislo2)
+   ${premenna/vyraz/text} prvni vyskyt vyrazu v promenne zmeni na dany text
+   ${premenna//vyraz/text} vsechny vyskyty vyrazu v promenne zmeni na text
+   nemuzu, v f3 to nedava smysl, v f4 muzu a vybere se prvni argument,
+   f5 ani f6 takto taky nefunguje
