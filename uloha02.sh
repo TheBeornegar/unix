@@ -2,7 +2,7 @@
 
 if [ "$1" == "--normal" ]; then
   for i; do
-     echo $i
+     echo "$i"
   done	
 elif [ "$1" == "--reverse" ]; then
     for i; do
